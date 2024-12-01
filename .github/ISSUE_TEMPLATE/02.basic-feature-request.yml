@@ -1,0 +1,31 @@
+name: Basic Feature Request
+description: File a feature request.
+title: '[feature]: '
+labels: ['feature']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We appreciate you taking the time to file a feature request! 
+        Please fill out the entire form! 
+
+  - type: textarea
+    attributes:
+      label: Describe the feature you would like to request.
+      description: Please describe the feature you would like to request. Remember to add context to why you believe this feature is needed.
+    validations: 
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Describe the soluton you would like to see.
+      description: Please describe the solution you would like to see for this feature.
+    validations: 
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Information.
+      description: Please provide any additional information that may be required.
+    validations: 
+      required: false
