@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Repo for github-issue-and-pr-templates
+    url: https://github.com/charlesshook/github-issue-and-pr-templates
+    about: This is an example of added links. You can add many more.
