@@ -1,0 +1,23 @@
+name: Basic Bug Report
+description: File a bug report for {you app name}.
+title: '[bug]: '
+lables: ['bug:unconfirmed', 'area:frontend']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We appreciate you taking the time to file a bug report! Please fill out the entire form! 
+        This allows us to quicly investigate the bug.
+
+  - type: textarea
+    attributes:
+      label: Provide environment information
+      render: bash
+      description: |
+        Please run this command and share the results:
+
+        ```terminal
+        go version
+        ```
+      validation: 
+        required: true
