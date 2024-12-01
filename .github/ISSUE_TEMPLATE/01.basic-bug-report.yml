@@ -19,5 +19,5 @@ body:
         ```terminal
         go version
         ```
-    validation: 
+    validations: 
       required: true
