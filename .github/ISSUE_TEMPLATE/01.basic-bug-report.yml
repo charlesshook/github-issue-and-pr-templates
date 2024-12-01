@@ -1,7 +1,7 @@
 name: Basic Bug Report
 description: File a bug report for {you app name}.
 title: '[bug]: '
-label: ['bug:unconfirmed', 'area:frontend']
+labels: ['bug:unconfirmed', 'area:frontend']
 body:
   - type: markdown
     attributes:
